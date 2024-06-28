@@ -23,7 +23,7 @@ const User = sequelize.define('user', {
   phone: {
     type: DataTypes.STRING,
     allowNull: false
-  },
+  }
 });
 
 User.beforeCreate(async (user) => {
