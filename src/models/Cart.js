@@ -13,6 +13,8 @@ const Cart = sequelize.define('cart', {
 module.exports = Cart;
 
 //unidades:3, userId:1 , productId:5 🛒
-//unidades:2, userId:4 , productId:2 🛒
 //unidades:3, userId:1 , productId:5 🛒
+
+//unidades:2, userId:4 , productId:2 🛒
+
 //unidades:3, userId:2 , productId:5 🛒
