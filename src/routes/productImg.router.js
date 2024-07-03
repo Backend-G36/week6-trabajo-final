@@ -6,8 +6,8 @@ const routerProductImg = express.Router();
 
 routerProductImg.route('/')
   .get(getAll)
-
   .post(upload.single('image'), create);
+
 
 routerProductImg.route('/:id')
   .delete(remove)
