@@ -15,6 +15,9 @@ const Product = sequelize.define('product', {
     type: DataTypes.DECIMAL,
     allowNull: false
   },
+  // brand: {
+  //   type: DataTypes.TEXT,
+  // }
   // stock: {
   //   type: DataTypes.INTEGER,
   //   allowNull: true,

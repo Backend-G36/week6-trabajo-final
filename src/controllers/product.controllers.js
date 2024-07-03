@@ -47,7 +47,6 @@ const setImages = catchError(async (req, res) => {
 
   return res.status(200).json(images)
 
-
 })
 
 
